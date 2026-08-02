@@ -81,13 +81,61 @@ export default function LinkTelegramPage() {
           Tap the button below to verify your Telegram account.
         </p>
 
-        <div className="bg-[#0f172a] border border-cyan-500 rounded-2xl p-8">
+        <div className="bg-[#0f172a] border border-cyan-500 rounded-2xl p-6 sm:p-8">
 
-          <h2 className="text-5xl font-extrabold tracking-[0.3em] text-cyan-400">
-            {code}
-          </h2>
+  <h2 className="font-mono text-3xl sm:text-5xl font-bold text-cyan-400 text-center break-all tracking-widest">
+    {code}
+  </h2>
 
-        </div>
+</div>
+
+<div className="mt-8 rounded-2xl border border-cyan-500/20 bg-white/5 p-6 text-left">
+
+  <h3 className="text-xl font-bold text-cyan-400 mb-4">
+    📋 How to Verify
+  </h3>
+
+  <div className="space-y-4">
+
+    <div>
+      <p className="font-semibold text-white">
+        ✅ Step 1
+      </p>
+      <p className="text-gray-400">
+        Tap <span className="text-cyan-400 font-semibold">"Verify on Telegram"</span>.
+      </p>
+    </div>
+
+    <div>
+      <p className="font-semibold text-white">
+        ✅ Step 2
+      </p>
+      <p className="text-gray-400">
+        The Telegram bot will open automatically.
+      </p>
+    </div>
+
+    <div>
+      <p className="font-semibold text-white">
+        ✅ Step 3
+      </p>
+      <p className="text-gray-400">
+        Press <span className="text-cyan-400 font-semibold">Start</span> and your account will be linked instantly.
+      </p>
+    </div>
+
+    <div>
+      <p className="font-semibold text-white">
+        ✅ Step 4
+      </p>
+      <p className="text-gray-400">
+        All GUDY features will be unlocked and ready for you to use.
+      </p>
+    </div>
+
+  </div>
+
+</div>
 
         <div className="flex flex-col gap-4 mt-8">
 
