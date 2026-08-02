@@ -413,7 +413,9 @@ export default function DashboardPage() {
 
 </div>
 
-        <div className="mt-10">
+        </div>
+
+       <div className="mt-10">
 
           <h2 className="text-3xl font-bold mb-6">
             🚀 Quick Actions
@@ -451,7 +453,7 @@ export default function DashboardPage() {
               Settings
             </Link>
 
-            <button
+                        <button
               onClick={logout}
               className="rounded-3xl bg-red-500 hover:bg-red-600 transition-all duration-300 hover:-translate-y-1 p-6 font-bold"
             >
@@ -463,11 +465,11 @@ export default function DashboardPage() {
               Logout
             </button>
 
-          </div>
+          </div> {/* End Quick Actions Grid */}
 
-        </div>
+        </div> {/* End Quick Actions */}
 
-      </div>
+      </div> {/* End max-w-7xl */}
 
     </main>
 
