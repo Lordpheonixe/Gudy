@@ -7,13 +7,10 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "GUDY",
   description: "Power. Control. Grow.",
+  manifest: "/manifest.json",
   icons: {
     icon: "/favicon.ico",
-  },
-  openGraph: {
-    title: "GUDY",
-    description: "Power. Control. Grow.",
-    images: ["/og-image.png"],
+    apple: "/icon-192.png",
   },
 };
 
@@ -24,9 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-
       <body className="bg-[#050816] text-white min-h-screen flex flex-col">
-
         <Navbar />
 
         <main className="flex-1">
@@ -34,9 +29,7 @@ export default function RootLayout({
         </main>
 
         <Footer />
-
       </body>
-
     </html>
   );
 }
